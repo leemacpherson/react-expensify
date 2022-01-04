@@ -6,9 +6,10 @@ module.exports = merge(common, {
   mode: "development",
   devtool: "inline-source-map",
   devServer: {
-    static: path.join(__dirname, "public"),
+    static: {
+      directory: path.join(__dirname, "public"),
+    },
     historyApiFallback: true,
-    compress: true,
     port: 8081,
   },
 });
