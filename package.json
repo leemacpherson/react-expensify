@@ -57,6 +57,5 @@
     "enzyme-to-json": "^3.6.2",
     "react-test-renderer": "16.14.0",
     "webpack-dev-server": "^4.7.2"
-  },
-  "packageManager": "yarn@3.1.1"
+  }
 }
